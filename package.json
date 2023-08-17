@@ -1,0 +1,32 @@
+{
+  "name": "random-library",
+  "version": "1.1.3",
+  "description": "The missing JavaScript random library",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "prepack": "npm run build",
+    "build": "tsc",
+    "test": "jest ./src",
+    "dev": "nodemon ."
+  },
+  "keywords": [
+    "random",
+    "rng"
+  ],
+  "author": "Wiktor Falek",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.4.0",
+    "@types/node": "^18.14.0",
+    "nodemon": "^3.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wiktor-falek/pyrand.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wiktor-falek/pyrand/issues"
+  },
+  "homepage": "https://github.com/wiktor-falek/pyrand#readme"
+}
