@@ -70,7 +70,8 @@ const cards = [
   "Jack of Clubs",
   "10 of Diamonds",
 ];
-shuffle(); // [ '4 of Hearts', 'Jack of Clubs', 'Ace of Spades', '10 of Diamonds' ]
+shuffle(cards);
+cards // [ '4 of Hearts', 'Jack of Clubs', 'Ace of Spades', '10 of Diamonds' ]
 ```
 
 <hr>
